@@ -39,10 +39,10 @@ function fastFood(nombre, apellido, callback) {
 
 //llamo a la funcion fastFood y la guardo dentro de la variable mensaje.
 
-// let mensaje1 = fastFood("Winona", "Muñoz", calcularTotal("carne", true, false, false, true, true, false, true, false));
-// let mensaje2 = fastFood("Winona", "Muñoz", calcularTotal("pollo", true, true, true, true, true, true, true, true));
-// let mensaje3 = fastFood("Winona", "Muñoz", calcularTotal("vegetariana", false, false, false, false, false, false, false, false,));
-// let mensaje4 = fastFood("Winona", "Muñoz", calcularTotal("Carne", true, false, false, true, true, false, true, false));
+let mensaje1 = fastFood("Winona", "Muñoz", calcularTotal("carne", true, false, false, true, true, false, true, false));
+let mensaje2 = fastFood("Winona", "Muñoz", calcularTotal("pollo", true, true, true, true, true, true, true, true));
+let mensaje3 = fastFood("Winona", "Muñoz", calcularTotal("vegetariana", false, false, false, false, false, false, false, false,));
+let mensaje4 = fastFood("Winona", "Muñoz", calcularTotal("Carne", true, false, false, true, true, false, true, false));
 
 // console.log(mensaje1);
 // console.log(mensaje2);
